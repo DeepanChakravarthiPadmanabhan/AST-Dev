@@ -1,11 +1,11 @@
-package Tests;
+package Ex02;
 
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 
 import org.junit.Test;
-import Classes.PrimeNumbers;
+
 
 public class PrimeNumbers_Test {
 

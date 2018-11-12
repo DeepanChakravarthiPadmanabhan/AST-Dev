@@ -1,4 +1,4 @@
-package Tests;
+package Ex01;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import Classes.Integers_1;
 
 public class Integers_1_Test {
 

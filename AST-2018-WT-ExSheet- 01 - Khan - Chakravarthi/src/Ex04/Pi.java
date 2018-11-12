@@ -1,4 +1,4 @@
-package Classes;
+package Ex04;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

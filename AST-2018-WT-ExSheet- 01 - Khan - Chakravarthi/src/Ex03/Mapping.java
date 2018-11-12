@@ -1,4 +1,4 @@
-package Classes;
+package Ex03;
 import java.util.ArrayList;
 import java.math.*; 
 public class Mapping {

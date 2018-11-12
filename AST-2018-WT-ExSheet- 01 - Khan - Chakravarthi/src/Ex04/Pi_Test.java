@@ -1,4 +1,4 @@
-package Tests;
+package Ex04;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import Classes.Pi;
 
 public class Pi_Test {
 	@Test

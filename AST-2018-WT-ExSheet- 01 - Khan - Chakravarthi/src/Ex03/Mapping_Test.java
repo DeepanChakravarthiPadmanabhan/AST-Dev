@@ -1,4 +1,4 @@
-package Tests;
+package Ex03;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import Classes.Mapping;
 
 
 public class Mapping_Test {
