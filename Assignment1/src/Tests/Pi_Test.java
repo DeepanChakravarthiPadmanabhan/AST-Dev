@@ -6,8 +6,6 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import java.math.BigDecimal;
-
 import Classes.Pi;
 
 public class Pi_Test {
