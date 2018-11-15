@@ -26,12 +26,8 @@ public class New_PrimeNumbers {
 	}
 	
 	
-	
-	
-	
-	
 	public void PrimeNumbers(int CheckRangeLow_large,int CheckRangeHigh_large){
-		int all=0;
+	
 		int m=0;
 		int n=0;
 		
@@ -60,7 +56,7 @@ public class New_PrimeNumbers {
 		if(flag==0)  
 		{ 
 			System.out.println(i);
-			all=all+1;
+			
 		 }  
 			
 		}
