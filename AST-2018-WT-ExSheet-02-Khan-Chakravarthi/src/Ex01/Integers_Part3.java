@@ -18,7 +18,6 @@ public class Integers_Part3 {
 //		CheckRangeHigh_large=Integer.MAX_VALUE; 
 //		CheckRangeHigh_long=Long.MAX_VALUE;
 //The values are commented for testing purpose, at final run can be uncommented and tested.
-		long startTime = System.nanoTime();
 //		PrimeNumbers(0,CheckRangeHigh_large);
 //The integer and long integer values can be switched and each functionality be tested.
 		PrimeNumbers(0,CheckRangeHigh_long);
