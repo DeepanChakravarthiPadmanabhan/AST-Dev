@@ -55,6 +55,10 @@ public class Doubles_Part1 {
 
 	}
 	
+	public void SetDoubles(ArrayList<Double> listOfdoubles){
+		this.listOfIntegers = listOfdoubles;
+	}
+	
 	public double CalculateSum(){
 		double sum = 0;
 		for(int i=0; i<listOfIntegers.size(); i++){

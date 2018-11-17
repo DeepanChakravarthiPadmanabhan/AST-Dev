@@ -25,11 +25,11 @@ public class Doubles_Part2 {
 		return answer;
 	}
 	
-	public double Mathod2(int k,int n){
+	public float Mathod2(int k,int n){
 		int kvalue=k;
 		int nvalue=n;
-		double secondterm =Math.pow((0.9/(1.0-0.9)), k-1)*Math.pow((0.1/(1.0-0.1)), (n-k+1));
-		double answer= 	1-(1/(1+secondterm));
+		double secondterm =Math.pow((0.9/(1.0-0.9)), kvalue-1)*Math.pow((0.1/(1.0-0.1)), (nvalue-kvalue+1));
+		float answer= (float)(1-(1/(1+secondterm)));
 		return answer;
 	}
 	
@@ -64,7 +64,7 @@ public class Doubles_Part2 {
 		 System.out.println("\n");
 		 
 		 startTime = System.nanoTime();
-		 double value=one.Mathod2(100,120);
+		 float value=one.Mathod2(100,120);
 		 endTime   = System.nanoTime();
 		 countTime = endTime - startTime;
 		 System.out.println("Time for efficient method "+countTime);
