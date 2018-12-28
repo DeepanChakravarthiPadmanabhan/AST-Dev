@@ -1,4 +1,5 @@
 package Ex01;
+import java.util.ArrayList;
 import java.util.Scanner; 
 public class Integers_Part3 {
 	private double counttime;
@@ -49,7 +50,8 @@ public class Integers_Part3 {
 		return totalTime;
 	}
 
-	public void PrimeNumbers(long CheckRangeLow_long,long CheckRangeHigh_long){
+	public ArrayList<Long> PrimeNumbers(long CheckRangeLow_long,long CheckRangeHigh_long){
+		ArrayList<Long> listOfPrimes = new ArrayList<Long>();
 	
 		long m=0;
 		long n=0;
@@ -75,12 +77,13 @@ public class Integers_Part3 {
 				}      
 			}
 			if(flag==0)  { 
+				listOfPrimes.add(i);
 				System.out.println(i);
 				
 				}  
 	
 		}
-		
+		return listOfPrimes;
 	}
 	
 	public void Countgetter(){
