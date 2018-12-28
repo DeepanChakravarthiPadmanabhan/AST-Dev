@@ -9,6 +9,7 @@ public class RBF_Kernel_SVC implements ML_Classifier {
 	}
 	public void classify(){
 		int s=3;
+		System.out.println("Classification by RBF Kernel SVC");
 	}
 
 }

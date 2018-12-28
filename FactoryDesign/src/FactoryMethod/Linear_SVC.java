@@ -9,6 +9,7 @@ public class Linear_SVC implements ML_Classifier {
 	}
 	public void classify(){
 		int s=2;
+		System.out.println("Classification by Linear SVC");
 	}
 
 }

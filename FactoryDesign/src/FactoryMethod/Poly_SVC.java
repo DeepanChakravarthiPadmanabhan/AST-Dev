@@ -9,5 +9,6 @@ public class Poly_SVC implements ML_Classifier {
 	}
 	public void classify(){
 		int s=4;
+		System.out.println("Classification by Polynomial SVC");
 	}
 }
